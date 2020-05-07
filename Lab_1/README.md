@@ -88,7 +88,7 @@ You are now ready to use Kubernetes to deploy the hello-world application.
 
 6. You can now access your container/service using `curl <public-IP>:<nodeport>` (or your favorite web browser). If you see, "Hello world! Your app is up and running in a cluster!" you're done!
 
-When you're all done, you can either use this deployment in the [next lab of this course](../Lab%202/README.md), or you can remove the deployment and thus stop taking the course.
+When you're all done, you can either use this deployment in the [next lab of this course](../Lab_2/README.md), or you can remove the deployment and thus stop taking the course.
 
 1. To remove the deployment, use `kubectl delete deployment hello-world`. 
 2. To remove the service, use `kubectl delete service hello-world`.
