@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: watson
-          image: "us.icr.io/<namespace>/watson" # edit here!
+          image: "us.icr.io/naivoder/watson" # edit here!
           imagePullPolicy: Always
           volumeMounts:
             - mountPath: /opt/service-bind
@@ -58,7 +58,7 @@ spec:
     spec:
       containers:
         - name: watson-talk
-          image: "us.icr.io/<namespace>/watson-talk" # edit here!
+          image: "us.icr.io/naivoder/watson-talk" # edit here!
           imagePullPolicy: Always
 ---
 apiVersion: v1
