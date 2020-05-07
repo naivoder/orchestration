@@ -5,7 +5,7 @@ Learn how to push an image of an application to IBM Cloud Container Registry and
 # 0. Install Prerequisite CLIs and Provision a Kubernetes Cluster
 
 If you haven't already:
-1. Install the CLIs, as described in [Lab 0](../Lab%200/README.md).
+1. Install the CLIs, as described in [Lab 0](../Lab_0/README.md).
 2. Provision a cluster: 
 
    ```ibmcloud ks cluster create classic --name <name-of-cluster>```
